@@ -1,0 +1,3 @@
+SANITY_VERSION 1
+TMPDIR /home/thongnh/imx6ul-org/build_x11/tmp
+SSTATE_DIR /home/thongnh/imx6ul-org/build_x11/sstate-cache
