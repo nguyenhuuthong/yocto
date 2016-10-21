@@ -1,0 +1,30 @@
+meta-measured
+-------------
+This layer's purpose is constructing a linux system that performs a 'measured launch'. This requires enabling support for:
+- the TPM and Intel TXT (kernel config / module)
+- the TCG Software Stack (through TrouSerS)
+- tboot and Authenticated Code Modules (ACMs)
+
+Dependencies
+------------
+This layer depends on the openembedded metadata and bitbake.
+
+Maintenance
+-----------
+Please see the MAINTAINERS file for information on contacting the maintainers
+of this layer, as well as instructions for submitting patches.
+
+Building the meta-measured layer
+-------------------------------
+Enable this layer like you enable any other layer.  If you wish to build the
+reference images you can clone the 'oe-build-scripts' repo from my github and
+checkout the 'measured' branch to get my scripts that set up bitbake and the
+basic OE metadata for you.
+
+License
+-------
+All metadata is MIT licensed unless otherwise stated. Source code included
+in tree for individual recipes is under the LICENSE stated in each recipe
+(.bb file) unless otherwise stated.
+
+This README document is Copyright (C) 2014 Philip Tricca <flihp@twobit.us>

@@ -1,0 +1,2 @@
+Before burn image to sdcard, copy and replace file "var-create-yocto-sdcard.sh" to folder "..../sources/meta-variscite-mx6ul-mx7/scripts/var_mk_yocto_sdcard".
+

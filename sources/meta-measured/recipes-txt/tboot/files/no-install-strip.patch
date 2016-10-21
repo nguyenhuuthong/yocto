@@ -1,0 +1,13 @@
+--- a/Config.mk
++++ b/Config.mk
+@@ -57,10 +57,6 @@ STRIP      ?= strip
+ OBJCOPY    ?= objcopy
+ OBJDUMP    ?= objdump
+ 
+-ifeq ($(debug),n)
+-INSTALL_STRIP = -s
+-endif
+-
+ INSTALL      = install
+ INSTALL_DIR  = $(INSTALL) -d -m0755 -p
+ INSTALL_DATA = $(INSTALL) -m0644 -p

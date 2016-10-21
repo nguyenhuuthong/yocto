@@ -1,0 +1,17 @@
+This layer depends on:
+
+URI: git://github.com/openembedded/oe-core.git
+branch: jethro
+revision: HEAD
+
+URI: git://github.com/openembedded/meta-oe.git
+branch: jethro
+revision: HEAD
+
+Send pull requests to openembedded-devel@lists.openembedded.org with '[meta-gnome][jethro]' in the subject'
+
+When sending single patches, please using something like:
+'git send-email -M -1 --to openembedded-devel@lists.openembedded.org --subject-prefix=meta-gnome][jethro][PATCH'
+
+Jethro Branch Maintainer:
+Armin Kuster <akuster808@gmail.com>
