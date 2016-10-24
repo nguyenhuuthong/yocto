@@ -18,6 +18,7 @@ SRC_URI[md5sum] = "b1ca7a250a8cd5da07062081b30b4118"
 SRC_URI[sha256sum] = "902df92255d755e8eb08b3c3db0c7b9d70d26d9659b219373bee425ffdc34245"
 
 SRC_URI_append_mx6 = " file://0001-asrc_pair-update-output-buffer-size.patch"
+SRC_URI_append_mx6ul = " file://0001-asrc_pair-update-output-buffer-size.patch"
 SRC_URI_append_mx7 = " file://0001-asrc_pair-update-output-buffer-size.patch"
 
 INCLUDE_DIR = "-I${STAGING_KERNEL_DIR}/include/uapi -I${STAGING_KERNEL_DIR}/include"

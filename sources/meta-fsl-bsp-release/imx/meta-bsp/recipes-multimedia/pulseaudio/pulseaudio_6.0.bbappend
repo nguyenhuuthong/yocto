@@ -15,6 +15,7 @@ SRC_URI_remove = "file://0003-card-move-profile-selection-after-pa_card_new.patc
 SRC_URI_remove = "file://0004-alsa-set-availability-for-some-unavailable-profiles.patch "
 
 SRC_URI_append_mx6 = "${IMX_PATCHES}"
+SRC_URI_append_mx6ul = "${IMX_PATCHES}"
 SRC_URI_append_mx7 = "${IMX_PATCHES}"
 
 # Enable allow-autospawn-for-root as default

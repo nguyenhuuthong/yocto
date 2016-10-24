@@ -123,6 +123,3 @@ EOF
 
 # Fix the path in sstate
 SSTATE_SCAN_FILES += "*.pm *.pod *.h *.pl *.sh"
-
-FILES_${PN} += "${libdir}/perl/${PV}/overloading.pm"
-RPROVIDES_${PN} += "perl-module-overloading"
